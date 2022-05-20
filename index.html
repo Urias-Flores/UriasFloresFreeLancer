@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreeLancer</title>
+    <link rel = "preload" href = "CSS/Normalize.css" as = "Style"> 
+    <link href= "CSS/Normalize.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:ital@1&display=swap" rel="stylesheet">
+    <link rel = "preload" href = "CSS/Style.css" as= "Style">
+    <link href= "CSS/Style.css" rel="stylesheet">
+</head>
+    <body>
+        <h1 class= "Titulo">Urias Flores <span>FreeLancer</span></h1>
+
+        <div class= "nav-bg">
+            <nav class = "Navegacion Contenedor">
+                <a href = "#"> Inicio</a>
+                <a href= "#"> Nosotros</a>
+                <a href= "#"> Cliente</a>
+                <a href= "#"> Contacto</a>
+            </nav>
+        </div>
+        
+
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Desarrollador web FreeLancer</h2>
+
+                <div class="ubicacion">
+                    <img src="image/Nav.svg">
+                    <p>Tela, Atlantida</p>
+                </div>
+
+                <a class = "boton" href="#">Contactar</a>
+            </div>
+        </section>
+        
+        <main class= "Contenedor sombra">
+
+                <h2>Mis servicios</h2>
+            <div class = "servicios">
+
+                <section = class="servicio">
+                    <h3>Diseño web</h3>
+                    <div class="iconos">
+                        <img src= "image/Palette.svg">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </section>
+                
+                <section = class="servicio">
+                    <h3>Desarrollo web</h3>
+                    <div class="iconos">
+                        <img src= "image/Android.svg">
+                        <img src= "image/Apple.svg">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </section>
+                
+                <section = class="servicio">
+                    <h3>E-Commers</h3>
+                    <div class="iconos">
+                        <img src= "image/Credit-card.svg">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </section>
+
+            </div>
+        
+            <!--Formulario-->
+            <h2>Contacto</h2>
+
+            <form class= "formulario">
+                <fieldset>
+                    <legend>Contacteme llenando todos los campos</legend>
+
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label for="nombre">Nombre</label>
+                            <input class="input-text" type="text" id="nombre" name="nombre" placeholder= "Tu Nombre">
+                        </div>
+                        
+                        <div class="campo">
+                            <label for="Telefono">Telefono</label>
+                            <input class="input-text" type="tel" id="Telefono" name="Telefono" placeholder= "Tu Telefono">
+                        </div>
+                        
+                        <div class="campo">
+                            <label for="Correo">Email</label>
+                            <input class="input-text" type="email" id="email" name="email" placeholder= "Tu Correo">
+                        </div>
+                        
+                        <div class="campo">
+                            <label for="Mensaje">Mensaje</label>
+                            <textarea class="input-text" id="Mensaje" name="Mensaje" placeholder= "Tu Mensaje">
+                            </textarea>
+                        </div>
+                    </div>
+
+                    <div class="enviar derecha flex">
+                        <input class= "boton" type="submit" value="Enviar">
+                    </div>
+
+                </fieldset>
+            </form>
+        </main>
+
+        <footer>
+            <p>Todos los derechos reservados</p>
+        </footer>
+    </body>
+</html>
